@@ -1,5 +1,3 @@
-const mySql = require('mysql');
-let roles, managers;
 class Database {
     //creates database connection
     constructor(connection) {
@@ -27,5 +25,4 @@ class Database {
         });
     }
 }
-
 module.exports = Database;
